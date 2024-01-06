@@ -360,9 +360,9 @@ pub struct Device {
 
 #[derive(Debug, Eq, PartialEq, Ord, PartialOrd)]
 pub struct RemoteDirEntry {
-    depth: usize,
-    metadata: RemoteMetadata,
-    name: String,
+    pub depth: usize,
+    pub metadata: RemoteMetadata,
+    pub name: String,
 }
 
 #[derive(Debug, Eq, PartialEq, Ord, PartialOrd)]
